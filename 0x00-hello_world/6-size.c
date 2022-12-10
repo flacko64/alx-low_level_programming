@@ -1,4 +1,4 @@
-#include <stdio.h
+#include <stdio.h>
 /**
  * main - print out sizes in data types in C
  * code by Fawaz Ismail
