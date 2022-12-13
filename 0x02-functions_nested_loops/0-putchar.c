@@ -2,6 +2,7 @@
 
 /**
  * main - print _putchar
+ * name of student: Fawaz
  * Return: 0
  */
 int main(void)
