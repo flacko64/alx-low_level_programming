@@ -18,6 +18,8 @@ if (a > c)
 {
 largest = a;
 }
+else
+{
 largest = c;
 }
 }
