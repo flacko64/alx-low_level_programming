@@ -5,7 +5,7 @@
  *
  * Return: returns nothing
  */
-void more_numbers(void);
+void more_numbers(void)
 {
 	int number1, number2;
 
@@ -19,7 +19,8 @@ void more_numbers(void);
 	_putchar((number2 / 10) + '0');
 	}
 	_putchar((number2 % 10) + '0');
-	_putchar('\n');
+	_putchar('10);
 	}
 }
 }
+
