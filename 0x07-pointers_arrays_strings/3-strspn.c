@@ -7,7 +7,7 @@
  *
  * @accept: which consist only of bytes from
  *
- * Return; the number of bytes
+ * Return: the number of bytes
  */
 
 unsigned int _strspn(char *s, char *accept)
