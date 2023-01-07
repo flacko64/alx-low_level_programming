@@ -3,16 +3,16 @@
 /**
  * main - prints all arguments it recieves
  * @argc: argument count
- * @argv: arguments
- *
+ * @argv: array of arguments
  * Return: 0
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	int i;
+	int n;
 
-	for (i = 0; i < argc; i++)
-		printf("%s\n", argv[i]);
-
-	Return (0);
+	for (n = 0; n < argc; n++)
+	{
+		printf("%s\n", argv[n]);
+	}
+	return (0);
 }
