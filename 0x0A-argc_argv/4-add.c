@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <ctype.h>
+#include <type.h>
 #include <string.h>
+
 /**
  * main - adds positive numbers
  * @argc: argument count
- * @argv: arguments vector
+ * @argv: argument vector
  *
  * Return: 0
  */
@@ -13,25 +14,28 @@ int main(int argc, char *argv[])
 {
 	int sum = 0, i;
 
-	if (argc == 1)
+	if (argc > 1)
 	{
-		printf("0\n");
-		return 0;
-	}
-	int result = 0;
-	for (int i = 1; i < argc; i++)
-	{
-		char *arg = argv[i];
-		for (int j = 0; arg[j] != '\0'; j++)
+		for (i = 1; i < argc; i++)
 		{
-			if (!isdigit(arg[j]))
+			int b;
+			char *str;
+
+			str = argv[i];
+			for (b = 0; str[b] != '\0'; b++)
 			{
-				printf("Error\n")
-					return 1;
+				if (str[b] < 48 || str[b] > 57)
+				{
+					printf("Error\n");
+					return (1);
+				}
 			}
 		}
-		result += atoi(arg);
 	}
-	printf("%d\n", result);
-	return 0;
+	for (i = 1; i < argc; i++)
+	{
+		sum += atoi(argv[i]);
+	}
+	printf("%d\n", sum);
+	return (0);
 }
