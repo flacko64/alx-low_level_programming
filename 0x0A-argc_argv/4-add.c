@@ -8,7 +8,7 @@
  *
  * Return: 0
  */
-int main(int argc, char **argv)
+int main(int argc, char **argv[])
 {
 	int i, n, sum = 0;
 	char *flag;
@@ -28,8 +28,10 @@ int main(int argc, char **argv)
 			return (1);
 		}
 		else
+		{
 			sum += n;
-	}
+		}
+	
 }
 printf("%d\n", sum);
 
