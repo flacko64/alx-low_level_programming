@@ -2,7 +2,7 @@
 
 /**
  * array_iterator - a function given as a
- * paraneter on each element of an array.
+ * parameter on each element of an array.
  *
  * @array: array to execute func on
  * @size: is the size of the array
@@ -20,7 +20,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 		while (i < size)
 		{
 			action(array[i]);
-			i++
+			i++;
 		}
 	}
 }
