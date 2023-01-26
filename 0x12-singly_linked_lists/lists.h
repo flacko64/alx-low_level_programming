@@ -7,7 +7,7 @@
  * @len: length of the string
  * @next: points to the next node
  *
- * description: singly linked list node structure
+ * Description: singly linked list node structure
  * for holberton project
  */
 
