@@ -3,9 +3,9 @@
 /**
  * add_nodeint - add node at beginning of a listint_t list
  *
- * @haed: head of double pointer
+ * @head: head of double pointer
  * @n: int add the list
- * Return: NULL if it failed
+ * Return: NULL if iit failed
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
