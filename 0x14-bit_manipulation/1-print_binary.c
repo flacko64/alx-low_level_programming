@@ -30,7 +30,7 @@ void print_binary(unsigned long int n)
 
 	while (dev != 0)
 	{
-		result  = n & dev;
+		result = n & dev;
 		if (result == dev)
 		{
 			flag = 1;
