@@ -7,7 +7,7 @@
  */
 unsigned long int _power(unsigned int base, unsigned int pow)
 {
-	unsigned long int num
+	unsigned long int num;
 	unsigned int i;
 
 	num = 1;
